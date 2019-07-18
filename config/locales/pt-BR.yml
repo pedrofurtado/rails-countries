@@ -1,0 +1,6 @@
+pt-BR:
+  validates_countries:
+    errors:
+      messages:
+        alpha2:
+          invalid: '%{alpha2} não é válido'
