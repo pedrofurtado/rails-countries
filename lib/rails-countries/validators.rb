@@ -1,6 +1,3 @@
-require 'countries'
-require 'active_model'
-
 module ActiveModel
   module Validations
     class CountriesAlpha2Validator < EachValidator
