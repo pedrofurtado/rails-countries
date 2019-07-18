@@ -44,16 +44,24 @@ class Person
 end
 ```
 
-### Views (\<select\> tag options)
+### Views
 
-#### Rails form helpers
+#### Helpers
+```erb
+<%= i18n_country_name_by_alpha2('US') %>
+<%= i18n_country_name_by_alpha2('US', 'pt-BR') %>
+```
+
+#### Rails Form helpers
 ```erb
 <%= select_tag(:my_attribute, countries_alpha2_options) %>
+<%= select_tag(:my_attribute, countries_alpha2_options('pt-BR')) %>
 ```
 
 #### SimpleForm
 ```erb
 <%= f.input :my_attribute, collection: countries_alpha2_options %>
+<%= f.input :my_attribute, collection: countries_alpha2_options('pt-BR') %>
 ```
 
 ## I18n
