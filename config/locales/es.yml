@@ -1,0 +1,4 @@
+es:
+  errors:
+    messages:
+      countries_alpha2_invalid: '%{alpha2} es invalido'
