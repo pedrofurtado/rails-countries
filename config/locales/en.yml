@@ -1,0 +1,6 @@
+en:
+  validates_countries:
+    errors:
+      messages:
+        alpha2:
+          invalid: 'is not a valid alpha2 code'
