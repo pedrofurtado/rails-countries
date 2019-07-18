@@ -1,3 +1,3 @@
 require 'rails-countries/version'
 require 'rails-countries/engine'
-require 'rails-countries/activemodel'
+require 'rails-countries/validators'
