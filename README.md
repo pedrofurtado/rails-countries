@@ -74,7 +74,3 @@ en:
     messages:
       countries_alpha2_invalid: '%{alpha2} is not valid'
 ```
-
-## Something wrong with the translations? Contribute it!
-
-Send a pull request! Fix the translations or create it for some missing locale. Help us to improves the quality of translations!
