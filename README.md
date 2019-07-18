@@ -27,9 +27,9 @@ Or install it yourself as:
 ### ActiveRecord models
 ```ruby
 class Person < ActiveRecord::Base
-  validates :my_attribute, countries: true
+  validates :my_attribute, countries_alpha2: true
   # or
-  validates_countries_of :my_attribute
+  validates_countries_alpha2_of :my_attribute
 end
 ```
 
@@ -38,9 +38,9 @@ end
 class Person
   include ActiveModel::Model
 
-  validates :my_attribute, countries: true
+  validates :my_attribute, countries_alpha2: true
   # or
-  validates_countries_of :my_attribute
+  validates_countries_alpha2_of :my_attribute
 end
 ```
 
