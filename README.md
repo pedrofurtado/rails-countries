@@ -1,6 +1,6 @@
-# validates-countries
+# rails-countries
 
-Rails/ActiveRecord validations for [countries](https://github.com/hexorx/countries) gem.
+Integration between Rails and [countries](https://github.com/hexorx/countries) gem.
 
 [![Gem Version](https://badge.fury.io/rb/validates-countries.svg)](https://badge.fury.io/rb/validates-countries)
 [![Gem](https://img.shields.io/gem/dt/validates-countries.svg)]()
@@ -11,7 +11,7 @@ Rails/ActiveRecord validations for [countries](https://github.com/hexorx/countri
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'validates-countries'
+gem 'rails-countries'
 ```
 
 And then execute:
@@ -20,7 +20,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install validates-countries
+    $ gem install rails-countries
 
 ## Usage
 
