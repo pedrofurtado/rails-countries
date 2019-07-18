@@ -50,11 +50,9 @@ To customize your error messages you can create a locale file like this:
 
 ```yaml
 en:
-  validates_countries:
-    errors:
-      messages:
-        alpha2:
-          invalid: '%{alpha2} is not valid'
+  errors:
+    messages:
+      countries_alpha2_invalid: '%{alpha2} is not valid'
 ```
 
 ## Something wrong with the translations? Contribute it!
