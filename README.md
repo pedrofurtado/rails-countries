@@ -44,6 +44,18 @@ class Person
 end
 ```
 
+### Views (\<select\> tag options)
+
+#### Rails form helpers
+```erb
+<%= select_tag(:my_attribute, countries_alpha2_options) %>
+```
+
+#### SimpleForm
+```erb
+<%= f.input :my_attribute, collection: countries_alpha2_options %>
+```
+
 ## I18n
 
 To customize your error messages you can create a locale file like this:
