@@ -1,6 +1,6 @@
 # validates-countries
 
-Rails/ActiveRecord validations for countries gem.
+Rails/ActiveRecord validations for [countries](https://github.com/hexorx/countries) gem.
 
 [![Gem Version](https://badge.fury.io/rb/validates-countries.svg)](https://badge.fury.io/rb/validates-countries)
 [![Gem](https://img.shields.io/gem/dt/validates-countries.svg)]()
