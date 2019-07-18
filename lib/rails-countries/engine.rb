@@ -1,5 +1,4 @@
 require 'rails'
-require './helpers'
 
 module RailsCountries
   class Engine < ::Rails::Engine
