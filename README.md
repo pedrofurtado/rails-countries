@@ -2,9 +2,9 @@
 
 Integration between Rails and [countries](https://github.com/hexorx/countries) gem.
 
-[![Gem Version](https://badge.fury.io/rb/validates-countries.svg)](https://badge.fury.io/rb/validates-countries)
-[![Gem](https://img.shields.io/gem/dt/validates-countries.svg)]()
-[![license](https://img.shields.io/github/license/pedrofurtado/validates-countries.svg)]()
+[![Gem Version](https://badge.fury.io/rb/rails-countries.svg)](https://badge.fury.io/rb/rails-countries)
+[![Gem](https://img.shields.io/gem/dt/rails-countries.svg)]()
+[![license](https://img.shields.io/github/license/pedrofurtado/rails-countries.svg)]()
 
 ## Installation
 
