@@ -54,7 +54,7 @@ en:
     errors:
       messages:
         alpha2:
-          invalid: 'is not a valid alpha2 code'
+          invalid: '%{alpha2} is not valid'
 ```
 
 ## Something wrong with the translations? Contribute it!
