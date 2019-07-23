@@ -2,3 +2,4 @@ en:
   errors:
     messages:
       countries_alpha2_invalid: '%{alpha2} is not valid'
+      countries_alpha3_invalid: '%{alpha3} is not valid'
