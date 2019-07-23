@@ -30,6 +30,10 @@ class Person < ActiveRecord::Base
   validates :my_attribute, countries_alpha2: true
   # or
   validates_countries_alpha2_of :my_attribute
+
+  validates :another_attribute, countries_alpha3: true
+  # or
+  validates_countries_alpha3_of :another_attribute
 end
 ```
 
@@ -41,6 +45,10 @@ class Person
   validates :my_attribute, countries_alpha2: true
   # or
   validates_countries_alpha2_of :my_attribute
+
+  validates :another_attribute, countries_alpha3: true
+  # or
+  validates_countries_alpha3_of :another_attribute
 end
 ```
 
@@ -50,18 +58,27 @@ end
 ```erb
 <%= i18n_country_name_by_alpha2('US') %>
 <%= i18n_country_name_by_alpha2('US', 'pt-BR') %>
+
+<%= i18n_country_name_by_alpha3('USA') %>
+<%= i18n_country_name_by_alpha3('USA', 'pt-BR') %>
 ```
 
 #### Rails Form helpers
 ```erb
 <%= select_tag(:my_attribute, countries_alpha2_options) %>
 <%= select_tag(:my_attribute, countries_alpha2_options('pt-BR')) %>
+
+<%= select_tag(:another_attribute, countries_alpha3_options) %>
+<%= select_tag(:another_attribute, countries_alpha3_options('pt-BR')) %>
 ```
 
 #### SimpleForm
 ```erb
 <%= f.input :my_attribute, collection: countries_alpha2_options %>
 <%= f.input :my_attribute, collection: countries_alpha2_options('pt-BR') %>
+
+<%= f.input :my_attribute, collection: countries_alpha3_options %>
+<%= f.input :my_attribute, collection: countries_alpha3_options('pt-BR') %>
 ```
 
 ## I18n
@@ -73,4 +90,9 @@ en:
   errors:
     messages:
       countries_alpha2_invalid: '%{alpha2} is not valid'
+      countries_alpha3_invalid: '%{alpha3} is not valid'
 ```
+
+## Contribute it!
+
+Help us to improve the features and translations of this gem! Your contribution will be welcome :tada:
