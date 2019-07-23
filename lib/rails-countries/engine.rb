@@ -1,3 +1,5 @@
+require 'rails'
+
 module RailsCountries
   class Engine < ::Rails::Engine
     initializer 'rails-countries.engine' do
