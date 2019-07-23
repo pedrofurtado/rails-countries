@@ -1,6 +1,3 @@
-require 'countries'
-require 'rails'
-require 'active_model'
 require 'rails-countries/version'
 require 'rails-countries/helpers'
 require 'rails-countries/engine'
