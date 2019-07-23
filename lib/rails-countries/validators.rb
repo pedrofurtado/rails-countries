@@ -1,3 +1,4 @@
+require 'countries'
 require 'active_model'
 
 module ActiveModel
