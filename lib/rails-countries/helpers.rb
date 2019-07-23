@@ -1,3 +1,5 @@
+require 'countries'
+
 module RailsCountries
   module ActionView
     module Helpers
