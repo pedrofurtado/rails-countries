@@ -1,0 +1,5 @@
+de:
+  errors:
+    messages:
+      countries_alpha2_invalid: '%{alpha2} ist ungültig'
+      countries_alpha3_invalid: '%{alpha3} ist ungültig'
